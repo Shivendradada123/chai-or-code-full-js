@@ -15,3 +15,26 @@ if(bankblance > 800) {
     alert('chal garib nikal')
 }
 
+
+
+const bgmi = true
+const ff = true
+
+if(bgmi && ff){
+    console.log("you are pro player")
+}else{
+    console.log("you are not pro player")
+}
+
+
+
+
+const pubg = true
+const freefire = false
+
+if(pubg || freefire){
+    console.log('noob')
+} 
+
+
+
