@@ -21,16 +21,26 @@
 // }
 
 
-const Obj = {
-    Name: "shivendra",
-    age: 16,
-    village: "mauhariya"
-}
-for (const key in Obj) {
+// const Obj = {
+//     Name: "shivendra",
+//     age: 16,
+//     village: "mauhariya"
+// }
+// for (const key in Obj) {
     
-        const element = Obj[key];
-        console.log( key, element)
+//         const element = Obj[key];
+//         console.log( key, element)
         
     
+// }
+
+let  yaya = 1;
+while(yaya <= 84) {
+    console.log(yaya);
+    yaya++;
 }
+
+
+ 
+
 
