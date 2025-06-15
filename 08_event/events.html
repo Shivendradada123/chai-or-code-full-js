@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>event</title>
     <style>
-        .div1{
-            background-color: aqua;
-            margin: 14;
-            padding: 14;
-        }
-        .div2{
-            background-color: red;
-            margin: 14;
-            padding: 14;
-        }
-        .div3{
-            background-color: yellowgreen;
-            margin: 14;
-            padding: 40vh;
-        }
+      .div1 {
+        background-color: red;
+        margin: 34px;
+        padding: 34px;
+        border: 2px solid black;
+      }
+      .div2 {
+        background-color: aqua;
+        margin: 34px;
+        padding: 34px;
+        border: 2px solid black;
+      }
+      .div3 {
+        background-color: yellowgreen;
+        margin: 34px;
+        padding: 34px;
+        border: 2px solid black;
+        text-align: center;
+      }
     </style>
-</head>
-<body>
-    <div class="div1"> hey
-        <div class="div2"> good
-            <div div class="div3">
-                hey i am mahariya
-            </div>
-        </div>
+  </head>
+  <body>
+    <div class="div1">
+      iqooz10
+      <div class="div2">
+        pulser
+        <div div class="div3">hey i am muhariya</div>
+      </div>
     </div>
     <script>
+      let ohh = document
+        .querySelector(".div3")
+        .addEventListener("dblclick", (e) => {
+          console.log("shivendra mauhariya");
+          e.stopPropagation();
+        });
+      document.querySelector(".div1").addEventListener("dblclick", () => {
+        alert("div1 clicked");
+      });
+      document.querySelector(".div2").addEventListener("dblclick", () => {
+        alert("div 2 clickde");
+      });
+     
+      // setInterval(() => {
+        
+      //  document.querySelector(".div3").style.backgroundColor = "pink";
 
+        
+      // }, 3000);
+setTimeout(() => {
+  document.querySelector(".div3").style.backgroundColor = "blue";
+
+}, 3000);
     </script>
-</body>
+  </body>
 </html>
