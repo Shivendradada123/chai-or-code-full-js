@@ -1,12 +1,22 @@
- let ohh = document.querySelector(".div3").addEventListener("dblclick", (e) => {
+//  let ohh = document.querySelector(".div3").addEventListener("dblclick", (e) => {
 
-       console..log("shivendra mauhariya");
-       e.stopPropagation();
-      });
-      document.querySelector(".div1").addEventListener("dblclick", () => {
-        alert("div1 clicked");
-      });
-      document.querySelector(".div2").addEventListener("dblclick", () => {
-        alert("div 2 clickde");
-      });
+//        console..log("shivendra mauhariya");
+//        e.stopPropagation();
+//       });
+//       document.querySelector(".div1").addEventListener("dblclick", () => {
+//         alert("div1 clicked");
+//       });
+//       document.querySelector(".div2").addEventListener("dblclick", () => {
+//         alert("div 2 clickde");
+//       });
       
+
+
+
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+const removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray);
+
+
