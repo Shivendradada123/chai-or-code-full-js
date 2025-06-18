@@ -13,10 +13,28 @@
 
 
 
-const myArray = [["John", 23], ["cat", 2]];
+// const myArray = [["John", 23], ["cat", 2]];
 
-// Only change code below this line
-const removedFromMyArray = myArray.pop();
-console.log(removedFromMyArray);
+// // Only change code below this line
+// const removedFromMyArray = myArray.pop();
+// console.log(removedFromMyArray);
+
+
+// Setup
+// let sum = 0;
+
+// function addThree() {
+//   sum = sum + 3;
+// }
+
+// // Only change code below this line
+// function addFive() {
+//   sum = sum + 5;
+// }
+// // Only change code above this line
+
+// addThree();
+// addFive();
+console.log("shivendra mauhariya")
 
 
